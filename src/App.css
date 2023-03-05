@@ -12,7 +12,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.map-container
+{
+  width: 70%;
+  margin: auto;
+  height: 60vh;
+}
 
+@media only screen and (max-width: 600px) {
+  .map-container
+  {
+    width: 100%;
+    margin: auto;
+    height: 60vh;
+    border-radius: 2px;
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
