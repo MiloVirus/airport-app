@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import {useState} from 'react';
 import {AirportDistance, newAirports} from '../services/AirportDistance';
 import { Grid, Box, Autocomplete, TextField } from '@mui/material';
 
